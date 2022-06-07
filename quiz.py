@@ -90,7 +90,5 @@ app.add_url_rule('/result', 'result', result) # создаёт правило д
 # Устанавливаем ключ шифрования:
 app.config['SECRET_KEY'] = '123'
 
-if __name__ == "__main__":
-    # Запускаем веб-сервер:
-    app.run(host=('192.168.0.103'))
+
 
